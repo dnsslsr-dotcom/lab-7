@@ -1,0 +1,8 @@
+def sort_by_length(s):
+    words = s.split()
+    words.sort(key=len)
+    return " ".join(words)
+
+text = input()
+result = sort_by_length(text)
+print(result)
