@@ -1,0 +1,8 @@
+def reverse_print():
+    n = int(input())
+    print(n)           
+    if n == 0:
+        return
+    reverse_print()
+
+reverse_print()
