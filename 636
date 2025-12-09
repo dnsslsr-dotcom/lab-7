@@ -1,0 +1,11 @@
+def make_list(seq):
+    return list(map(int, seq.split()))
+
+def unique_sorted(lst):
+    return sorted(set(lst))
+
+data = input()
+numbers = make_list(data)
+result = unique_sorted(numbers)
+
+print(result)
